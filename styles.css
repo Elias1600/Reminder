@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #EEF0F4;
+    user-select: none;
+    background-image: url(landschftsbildhtml.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 90px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+input {
+    color: rgb(48, 48, 206);
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;   
+   
+}
+
+button {
+    color: #FDFDFD;
+    background-color: rgb(48, 48, 206);
+    border: 0;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;  
+}
+
+button:hover {
+    background-color: rgb(48, 48, 206);
+    cursor: pointer;
+}
+
+
+#fff-f {
+color:rgb(48, 48, 206) ;
+font-weight: light;
+text-align: center;
+}
